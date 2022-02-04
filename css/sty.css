@@ -1,0 +1,259 @@
+*{
+    margin: 10px;
+    padding: 0;
+
+}
+.body
+{
+    font-family: 'Georgia';
+}
+.nav-bar
+{
+    display: flex;
+    font-family: 'Georgia';
+    height: 50px; 
+	border-bottom: grey;  
+}
+.left-nav
+{
+	font-family: 'Georgia';
+    font-size: 22px;
+    list-style: none;
+    width: 70%;
+    text-align: left;    
+}
+.right-nav
+{
+	font-family: 'Georgia';
+    font-style:none;
+    width: 30%;
+    text-align: center;
+     
+}
+.right-nav a
+{
+	text-decoration: none;
+	
+}
+.but
+{
+	border: blue;
+	border-radius: 50px;
+	background-color: blue;
+	padding: 15px;
+	color: white;
+}
+.h1
+{
+    font-size: 75px;
+	font-family: 'Georgia';
+}
+.p1
+{
+    font-size: 20px;
+	font-family: 'Georgia';
+}
+.page
+{
+    display: flex;
+	font-family: 'Georgia';
+}
+.rights
+{
+    padding: 25px;
+    align-items: center;
+    width:50%;
+	font-family: 'Georgia';
+}
+.lefts
+{
+    padding: 25px;
+    align-items: right;
+    width:50%;
+	font-family: 'Georgia';
+}
+.portion
+{
+    display: flex;
+	font-family: 'Georgia';
+    flex-direction: column;
+    font-size: 30px;
+    color: azure;
+    height: 250px;
+    text-align: center;
+    width: auto;
+    background-image: linear-gradient(to right,#5d36eb,#822dba);
+    align-items: center;
+    justify-content: center;
+}
+.third
+{
+    display: flex;
+    width: 100%;
+	font-family: 'Georgia';
+}
+.left
+{
+    display: flex;
+    width: 30%;
+    align-items: flex-end;
+    flex-direction: column;
+	font-family: 'Georgia';
+}
+.righ
+{
+    display: grid;
+    grid-template-columns: 500px 500px;
+    grid-template-rows: 250px 250px;
+    align-items: center;
+    justify-items: center;
+	font-family: 'Georgia';
+}
+.item1
+{
+text-align: center;
+font-family: 'Georgia';
+}
+.item2
+{
+	text-align: center;
+	font-family: 'Georgia';
+}
+.item3
+{
+	text-align: center;
+	font-family: 'Georgia';
+}
+.item4
+{
+	text-align: center;
+	font-family: 'Georgia';
+}
+.fourth
+{
+    margin: 0px;
+    display: flex;
+    height: 650px;
+	width: 100%;
+    background-color: #f1f5f8;
+    justify-content: center;
+	background-size: cover;
+    align-items: center;
+	font-family: 'Georgia';
+}
+.le
+{
+    width: 50%;
+	font-family: 'Georgia';
+}
+.ri
+{
+    width: 50%;
+	font-family: 'Georgia';
+}
+.fifth
+{
+    margin: 0px;
+    display:flex;
+    flex-direction: column;
+    height: 1250px;
+	font-family: 'Georgia';
+}
+.f
+{
+    margin: 0px;
+    background: url("ipad_pixabay_1564490595759.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.75;
+	font-family: 'Georgia';
+    height: 800px;
+}
+.f2
+{
+	margin-left: 50px;
+	margin-top: 50px;
+    font-family: 'Georgia';
+	font-size: 22px;
+}
+.but2
+{
+	border:5px black;
+	color:black;
+	background-color: white;
+	text-decoration:none ;
+	border-radius: 50px;
+	padding: 15px;
+}
+.s
+{
+	display: flex;
+    margin: 0px;
+    height: 300px;
+	width: 100%;
+	flex-direction: column ;
+    background-image: linear-gradient(to right,#5d36eb,#822dba);
+	justify-content: center;
+	align-items: center;
+	font-family: 'Georgia';
+}
+.t
+{
+	display: flex;
+    margin: 0px;
+	flex-direction: column ;
+    height: 150px;
+    background-color: black;
+	background-size: 1500px 150px;
+	justify-content: center;
+	font-family: 'Georgia';
+	align-items: center;
+	text-align: center;
+}
+.burger
+{  
+	display: none;
+	position: relative;
+	cursor: pointer;
+	left: 90%;
+	top: 5px;
+}
+.line
+{
+   width: 33px;
+   background-color: black;
+   height: 4px;
+   margin: 5px 5px;
+}
+.circle
+{
+	width: auto;
+	height: auto;
+}
+
+@media only screen and (max-width:1300px)
+{
+.nav-bar
+{
+	flex-direction: column;
+	height: 200px;
+}
+.right-nav
+{
+	flex-direction: column;
+	opacity: 0;
+}
+.burger
+{
+	display:block;
+}
+.portion
+{
+	width: auto;
+}
+.circle
+{
+	width: 400px;
+	height: 400px;
+}
+}
